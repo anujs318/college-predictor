@@ -1,17 +1,29 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
+import logo from '../assets/college-predictor.png'; // ✅ Import your logo here
 
 function Home() {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen bg-gradient-to-r from-blue-500 to-purple-600 text-white px-4 text-center">
+      
+      {/* ✅ Add the Logo */}
+      <motion.img
+        src={logo}
+        alt="College Predictor Logo"
+        className="w-32 h-32 mb-6" // You can adjust the size here
+        initial={{ opacity: 0, scale: 0.8 }}
+        animate={{ opacity: 1, scale: 1 }}
+        transition={{ duration: 0.8 }}
+      />
+
       <motion.h1
         className="text-4xl md:text-6xl font-bold mb-6"
         initial={{ opacity: 0, y: -50 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8 }}
       >
-        Maharashtra College Predictor
+        MHT-CET College Predictor
       </motion.h1>
       <motion.p
         className="text-lg md:text-2xl mb-8 max-w-xl"

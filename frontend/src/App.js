@@ -11,6 +11,8 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/predictor" element={<Predictor />} />
         <Route path="/colleges" element={<Colleges />} />
+            
+
       </Routes>
     </Router>
   );
