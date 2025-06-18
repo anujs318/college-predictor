@@ -6,8 +6,6 @@ import { motion } from 'framer-motion';
 import { Helmet } from 'react-helmet';
 
 <Helmet>
-  <title>College Predictor | Find Your College by Rank</title>
-  <h1>College Predictor for MHT-CET and NEET</h1>
   <meta name="description" content="Predict your college using your entrance exam rank for MHT-CET, NEET, JEE,mhtcet and more. Fast and student-friendly." />
   <meta name="keywords" content="college predictor, MHT CET,mhtcet, NEET predictor, engineering colleges, Maharashtra colleges, college cutoff" />
 </Helmet>
