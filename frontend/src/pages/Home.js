@@ -19,7 +19,7 @@ function Home() {
         animate={{ opacity: 1 }}
         transition={{ delay: 0.5 }}
       >
-        Find the best colleges based on your MHT-CET and NEET ranks.
+        Find the best colleges based on your MHT-CET ranks.
       </motion.p>
       <Link to="/predictor">
         <motion.button
