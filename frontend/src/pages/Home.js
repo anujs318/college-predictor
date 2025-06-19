@@ -4,15 +4,15 @@ import { motion } from 'framer-motion';
 import logo from '../assets/college-predictor.png'; // ✅ Import your logo here
 import { Helmet } from 'react-helmet';
 
-<Helmet>
-  <meta name="description" content="Predict your college using your entrance exam rank for MHT-CET, NEET, and more. Fast and student-friendly." />
-  <meta name="keywords" content="college predictor, MHT CET, NEET predictor, engineering colleges, Maharashtra colleges, college cutoff" />
-</Helmet>
 
 
 function Home() {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen bg-gradient-to-r from-blue-500 to-purple-600 text-white px-4 text-center">
+     <Helmet>
+       <meta name="description" content="Predict your college using your entrance exam rank for MHT-CET, NEET, and more. Fast and student-friendly." />
+       <meta name="keywords" content="college predictor, MHT CET, NEET predictor, engineering colleges, Maharashtra colleges, college cutoff" />
+     </Helmet>
       
       {/* ✅ Add the Logo */}
       <motion.img

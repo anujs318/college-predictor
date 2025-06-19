@@ -4,10 +4,6 @@ import { motion } from 'framer-motion';
 
 import { Helmet } from 'react-helmet';
 
-<Helmet>
-  <meta name="description" content="Predict your college using your entrance exam rank for MHT-CET, NEET, and more. Fast and student-friendly." />
-  <meta name="keywords" content="college predictor, MHT CET, NEET predictor, engineering colleges, Maharashtra colleges, college cutoff" />
-</Helmet>
 
 
 function Predictor() {
@@ -23,6 +19,11 @@ function Predictor() {
 
   return (
     <div className="flex flex-col items-center justify-center min-h-screen bg-gradient-to-r from-purple-600 to-blue-500 text-white px-4">
+      <Helmet>
+        <meta name="description" content="Predict your college using your entrance exam rank for MHT-CET, NEET, and more. Fast and student-friendly." />
+        <meta name="keywords" content="college predictor, MHT CET, NEET predictor, engineering colleges, Maharashtra colleges, college cutoff" />
+      </Helmet>
+      
       <motion.h2
         className="text-3xl font-bold mb-6"
         initial={{ opacity: 0, y: -30 }}
