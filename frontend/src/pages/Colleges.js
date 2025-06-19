@@ -15,7 +15,7 @@ function Colleges() {
   const [colleges, setColleges] = useState([]);
   const [loading, setLoading] = useState(true);
   const location = useLocation();
-
+  
   useEffect(() => {
     const fetchColleges = async () => {
       try {
